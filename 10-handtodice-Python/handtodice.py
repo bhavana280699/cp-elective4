@@ -6,5 +6,7 @@
 # Hint: You might find // and % useful here, and also getKthDigit().
 
 def handtodice(hand):
-	# your code goes here
-	pass
+        a = hand // 100
+        b = (hand % 100) // 10
+        c = hand % 10
+        return a, b, c
