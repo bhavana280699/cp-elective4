@@ -11,5 +11,8 @@
 
 
 def dicetoorderedhand(a, b, c):
-	# your code goes here
-	pass
+	value1 = max(a,b,c)
+	value2 = min(a,b,c)
+	return_value = a + b + c - value1 - value2
+	return value1*100 + return_value*10 + value2
+
