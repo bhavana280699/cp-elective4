@@ -24,11 +24,12 @@
 # the class DataColumn so the following test function passes 
 # (without hardcoding any test cases):
 
-class DataColumn: 
-    pass
-
-class DataTable:
-    pass
+# class DataColumn: 
+# class DataTable:
+class DataColumn:
+    # pass
+class DataTable: 
+    # pass 
 
 def almostEqual(a, b):
     return True
