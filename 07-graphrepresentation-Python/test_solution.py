@@ -1,4 +1,3 @@
-
 import os,sys
 sys.path.append(os.getcwd())
 from Graph_Representation import Graph 
@@ -22,4 +21,3 @@ def test_get_adjacency_list(result):
 @pytest.mark.parametrize("result",[([[0, 0, 0, 0, 0], [0, 0, 100, 101, 102], [0, 0, 0, 0, 0], [0, 0, 0, 0, 103], [0, 0, 0, 0, 0]])])
 def test_get_adjacency_matrix(result):    
     assert graph.get_adjacency_matrix() == result
-
