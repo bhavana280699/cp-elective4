@@ -27,9 +27,9 @@
 # class DataColumn: 
 # class DataTable:
 class DataColumn:
-    # pass
-class DataTable: 
-    # pass 
+    
+class DataTable:
+    
 
 def almostEqual(a, b):
     return True
